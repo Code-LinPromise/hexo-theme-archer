@@ -5,10 +5,7 @@
             <%- partial('base-social') %>
         </div>
     <% } %>
-    <!-- powered by Hexo  -->
-    <div class="copyright">
-        <span id="hexo-power">Powered by <a href="https://hexo.io/" target="_blank">Hexo</a></span><span class="iconfont-archer power">&#xe635;</span><span id="theme-info">theme <a href="https://github.com/fi3ework/hexo-theme-archer" target="_blank">Archer</a></span>
-    </div>
+        
     <!-- website approve for Chinese user -->
     <% if(theme.website_approve.enable) { %>
         <div class="website-approve">
@@ -21,7 +18,7 @@
                 <% const beianPath = theme.website_approve.beian_img %>
                 <img class="beian-img" src="<%- url_for(beianPath) %>" />
                 <span id="beian-approve" class="beian-approve">
-                    <a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=<%- theme.website_approve.beian_approve %>" target="_blank">京公网安备 <%- theme.website_approve.beian_approve %>号</a>
+                    <a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=<%- theme.website_approve.beian_approve %>" target="_blank"><%- theme.website_approve.beian_approve %>号</a>
                 </span>
             <% } %>
         </div>

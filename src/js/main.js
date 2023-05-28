@@ -8,13 +8,13 @@ import fancybox from './fancybox'
 // print custom info
 const logStyle =
   'color: #fff; background: #f75357; padding: 1px; border-radius: 5px;'
-console.info('%c 🎯 hexo-theme-archer ⬇️ ', logStyle)
-console.info('%c 🏷 Version: 1.6.4 ', logStyle)
-console.info('%c 📅 Version date: 20210811 ', logStyle)
-console.info('%c 📦 https://github.com/fi3ework/hexo-theme-archer ', logStyle)
+console.info('%c 🎯 1in-blog ⬇️ ', logStyle)
+console.info('%c 🏷 Version: 1.0.0 ', logStyle)
+console.info('%c 📅 Version date: 20230528 ', logStyle)
+console.info('%c 📦 https://github.com/Code-LinPromise ', logStyle)
 
 window.addEventListener('load', function (event) {
-  console.log('All resources finished loading!')
+  console.log('All resources finished loading!!')
 })
 
 // init site base
